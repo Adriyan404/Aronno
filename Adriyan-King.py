@@ -387,9 +387,7 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
-logo = """
-
-        _____  _____  _______     __      _   _  
+logo = """     _____  _____  _______     __      _   _  
      /\   |  __ \|  __ \|_   _\ \   / //\   | \ | | 
     /  \  | |  | | |__) | | |  \ \_/ //  \  |  \| | 
    / /\ \ | |  | |  _  /  | |   \   // /\ \ | . ` | 
@@ -399,7 +397,7 @@ logo = """
 \x1b[1;97m---------------------------------------------------
 \33[1;41m𝗧𝗢𝗢𝗟𝗦 𝗨𝗣𝗗𝗔𝗧𝗘 𝗙𝗜𝗥𝗦𝗧 𝗦𝗘𝗡𝗧 𝗙𝗥𝗜𝗘𝗡𝗗 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 \33[0m
 \x1b[1;32m---------------------------------------------------
-\x1b[1;32m[❤️] 𝗔𝗨𝗧𝗛𝗢𝗥  :   ADRIYAN
+\x1b[1;32m[🤍] 𝗔𝗨𝗧𝗛𝗢𝗥  :   ADRIYAN
 \x1b[1;31m[🖤] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :  ADRIYAN-KING
 \x1b[1;32m[💛] 𝗚𝗜𝗧𝗛𝗨𝗕  :   ADRIYAN404 
 \x1b[1;31m[💚] 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏    :   \33[1;42  01706870024 \33[0m
@@ -417,12 +415,12 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : Approval ADMIN ")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : FOLLOW MY ACCOUNT ")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
 		print("")
-		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 Approval ADMIN   ")
+		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 FOLLOW THIS ACCOUNT   ")
 		print("\033[1;37m [2] 𝗘𝘅𝗶𝘁")
 		print("")
 		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
@@ -432,7 +430,7 @@ class Main:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://github.com/Adriyan404/Kay/blob/main/Kuy")
+			os.system("xdg-open https://www.facebook.com/meri.jan.ummmah")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
